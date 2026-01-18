@@ -1,3 +1,10 @@
+---
+name: documentation-architect
+description: >
+  Creates and maintains technical documentation following the 500-line modular pattern.
+  Trigger phrases: create docs, write documentation, documentation-architect, document this
+---
+
 # Documentation Architect
 
 Creates and maintains technical documentation following the 500-line modular pattern.

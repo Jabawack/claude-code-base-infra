@@ -17,7 +17,7 @@ if [ -n "$FILE_PATH" ] && [ -f "$FILE_PATH" ]; then
     # Check 500-line rule
     if [ "$LINE_COUNT" -gt 500 ]; then
         echo "[WARNING] File exceeds 500-line limit: $FILE_PATH ($LINE_COUNT lines)"
-        echo "Consider using /skill-developer to refactor into modular skills."
+        echo "Consider using /add-skill to refactor into modular skills."
     fi
 fi
 

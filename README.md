@@ -1,6 +1,35 @@
 # Claude Code Base Infrastructure
 
-A production-ready Claude Code skills and agents template for Next.js + React + Supabase projects.
+Production-ready Claude Code skills and agents for Next.js + React + Supabase projects.
+
+## Two Ways to Use
+
+### Option 1: Start a New Project
+
+Clone this repo as your project foundation:
+
+```bash
+git clone <this-repo> my-project
+cd my-project
+/setup-hooks
+```
+
+`/setup-hooks` resets git history and installs hook dependencies.
+
+### Option 2: Add to Existing Project
+
+Copy the infrastructure to your existing codebase:
+
+```bash
+# From this repo directory
+/init-infra-setup
+```
+
+This copies `.claude/` to your project, then run `/setup-hooks`.
+
+For complete reference of all commands, skills, agents, and hooks, see [docs/cheatsheet.md](docs/cheatsheet.md).
+
+---
 
 ## Stack
 
@@ -10,24 +39,6 @@ A production-ready Claude Code skills and agents template for Next.js + React + 
 - **UI:** MUI (Material UI)
 - **Database:** Supabase (PostgreSQL)
 - **Deployment:** Vercel
-
-## Quick Start
-
-1. **Copy to your project**
-   ```bash
-   cp -r .claude/ /path/to/your/project/
-   ```
-
-2. **Install hook dependencies**
-   ```bash
-   npm install -D ts-node @types/node
-   ```
-
-3. **Verify setup**
-   ```bash
-   # Skills should auto-suggest when working
-   # Try mentioning "api route" or "component"
-   ```
 
 ## Key Features
 
@@ -41,7 +52,7 @@ Skills activate automatically based on:
 Every file stays under 500 lines:
 - SKILL.md files are quick references
 - Detailed content goes in `resources/`
-- Use `/skill-developer` to help refactor
+- Use `/add-skill` to help refactor
 
 ### UserPromptSubmit Hook
 The hook automatically:
@@ -57,7 +68,7 @@ The hook automatically:
 ├── skills/                     # 5 Production Skills
 │   ├── backend-dev-guidelines/ # API, Supabase, server patterns
 │   ├── frontend-dev-guidelines/# React, MUI, client patterns
-│   ├── skill-developer/        # Create/manage skills
+│   ├── add-skill/              # Create/manage skills
 │   ├── route-tester/           # API endpoint testing
 │   ├── error-tracking/         # Error handling, debugging
 │   └── skill-rules.json        # Activation configuration
@@ -81,7 +92,6 @@ The hook automatically:
 │
 ├── commands/                   # Slash Commands
 │   ├── dev-docs.md            # Development documentation
-│   ├── add-skill.md           # Create new skills
 │   └── route-test.md          # Quick API testing
 │
 └── settings.json              # Hook and permission config
@@ -96,7 +106,7 @@ dev/
 |-------|----------|---------|
 | `backend-dev-guidelines` | api, route, supabase, database | Server-side patterns |
 | `frontend-dev-guidelines` | component, react, mui, hook | Client-side patterns |
-| `skill-developer` | "add skill", "create skill" | Skill management |
+| `add-skill` | "add skill", "create skill" | Skill management |
 | `route-tester` | test route, test api, endpoint | API testing |
 | `error-tracking` | error, bug, fix, debug | Error handling |
 
@@ -182,7 +192,7 @@ Lower number = higher priority:
 2. **Follow guidelines** - Skills provide patterns
 3. **Test routes** - Use route-tester
 4. **Fix errors** - Error-tracking helps
-5. **Create skills** - Use skill-developer
+5. **Create skills** - Use add-skill
 
 ## Contributing
 

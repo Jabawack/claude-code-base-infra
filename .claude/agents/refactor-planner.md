@@ -1,3 +1,10 @@
+---
+name: refactor-planner
+description: >
+  Plans and coordinates code refactoring efforts with minimal disruption.
+  Trigger phrases: plan refactor, refactor-planner, refactoring plan, plan restructure
+---
+
 # Refactor Planner
 
 Plans and coordinates code refactoring efforts with minimal disruption.

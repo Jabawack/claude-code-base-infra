@@ -5,12 +5,27 @@ This file provides context to Claude Code about this project.
 ## Project Type
 Claude Code Skills and Agents Template for Next.js/React/Supabase projects.
 
+## Git & Deployment Policy
+
+- **NEVER commit, push, or deploy without EXPLICIT user consent.** - Always ask before committing
+- **ALWAYS ask for confirmation** before running `git commit`, `git push`, `vercel`, or any deployment commands.
+- Phrases like "before we deploy" or "when we deploy" are NOT consent - they indicate future intent.
+- Only proceed when user says something like "deploy now", "yes deploy", "commit it", "push it".
+- **NEVER mention Claude or AI in commit messages.** No "Co-Authored-By: Claude" or similar attribution.
+
+
+## Date/Time Rules
+
+- **ALWAYS use the system-injected date** - A hook injects current date/time into every prompt
+- **NEVER guess or assume dates** - If no date is visible, run `date` command to get current time
+- **Use current year (2026) for documentation** - Do not use outdated years from training data
+
 ## Key Conventions
 
 ### 500-Line Rule
 - No file should exceed 500 lines
 - Split large files into modular resources
-- Use `/skill-developer` for refactoring guidance
+- Use `/add-skill` for refactoring guidance
 
 ### Skill Structure
 ```
@@ -36,7 +51,7 @@ Skills activate based on:
 ## Common Tasks
 
 ### Add a New Skill
-"Help me to add skill [name]" triggers skill-developer
+"Help me to add skill [name]" triggers add-skill
 
 ### Test API Routes
 Use `/route-tester` or "test api endpoint"

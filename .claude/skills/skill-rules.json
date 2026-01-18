@@ -49,13 +49,13 @@
       "priority": 1
     },
 
-    "skill-developer": {
+    "add-skill": {
       "description": "Create and manage skills, modular patterns, 500-line rule",
       "triggers": {
         "prompt": [
           "add skill", "create skill", "new skill",
-          "help me to add skill", "skill developer",
-          "modular", "refactor skill", "skill template"
+          "help me to add skill", "refactor skill",
+          "modular", "skill template"
         ],
         "files": [
           ".claude/skills/**/*",
@@ -98,6 +98,24 @@
           "lib/logging/**/*",
           "sentry.*",
           "*.error.ts"
+        ]
+      },
+      "enforcement": "suggest",
+      "priority": 2
+    },
+
+    "date-aware": {
+      "description": "Ensures accurate date/time usage for date-sensitive tasks",
+      "triggers": {
+        "prompt": [
+          "date-aware", "check date", "current date", "what year",
+          "documentation date", "changelog", "release notes",
+          "last updated", "timestamp", "current time"
+        ],
+        "files": [
+          "CHANGELOG.md",
+          "RELEASE*.md",
+          "docs/**/*"
         ]
       },
       "enforcement": "suggest",

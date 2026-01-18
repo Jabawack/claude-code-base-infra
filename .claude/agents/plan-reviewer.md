@@ -1,3 +1,10 @@
+---
+name: plan-reviewer
+description: >
+  Reviews implementation plans for completeness, risks, and feasibility.
+  Trigger phrases: review plan, plan-reviewer, check my plan, validate plan
+---
+
 # Plan Reviewer
 
 Reviews implementation plans for completeness, risks, and feasibility.

@@ -1,3 +1,10 @@
+---
+name: auto-error-resolver
+description: >
+  Automatically analyzes and suggests fixes for common errors.
+  Trigger phrases: fix error, auto-error-resolver, resolve error, typescript error
+---
+
 # Auto Error Resolver
 
 Automatically analyzes and suggests fixes for common errors.

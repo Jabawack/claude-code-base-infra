@@ -1,3 +1,10 @@
+---
+name: auth-route-tester
+description: >
+  Tests authentication and authorization for API routes.
+  Trigger phrases: test auth, auth-route-tester, test authentication, test protected route
+---
+
 # Auth Route Tester
 
 Tests authentication and authorization for API routes.

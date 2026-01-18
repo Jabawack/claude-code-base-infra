@@ -1,3 +1,10 @@
+---
+name: code-refactor-master
+description: >
+  Executes safe, incremental code refactoring following best practices.
+  Trigger phrases: refactor code, code refactor, refactoring, code-refactor-master
+---
+
 # Code Refactor Master
 
 Executes safe, incremental code refactoring following best practices.

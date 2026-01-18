@@ -1,3 +1,10 @@
+---
+name: code-architecture-reviewer
+description: >
+  Reviews code structure and suggests architectural improvements.
+  Trigger phrases: architecture review, code review, review architecture, code-architecture-reviewer
+---
+
 # Code Architecture Reviewer
 
 Reviews code structure and suggests architectural improvements for Next.js/React applications.

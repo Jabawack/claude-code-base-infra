@@ -1,3 +1,10 @@
+---
+name: auth-route-debugger
+description: >
+  Debugs authentication issues in Next.js/Supabase applications.
+  Trigger phrases: debug auth, auth-route-debugger, authentication not working, login issues
+---
+
 # Auth Route Debugger
 
 Debugs authentication issues in Next.js/Supabase applications.

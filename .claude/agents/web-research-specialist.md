@@ -1,3 +1,10 @@
+---
+name: web-research-specialist
+description: >
+  Researches technical topics, finds best practices, and gathers external documentation.
+  Trigger phrases: research this, web-research-specialist, find best practices, investigate
+---
+
 # Web Research Specialist
 
 Researches technical topics, finds best practices, and gathers external documentation.

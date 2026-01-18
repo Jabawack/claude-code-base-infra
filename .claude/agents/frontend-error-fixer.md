@@ -1,3 +1,10 @@
+---
+name: frontend-error-fixer
+description: >
+  Diagnoses and fixes React/Next.js frontend errors quickly.
+  Trigger phrases: fix frontend error, react error, frontend-error-fixer, hydration error
+---
+
 # Frontend Error Fixer
 
 Diagnoses and fixes React/Next.js frontend errors quickly.
