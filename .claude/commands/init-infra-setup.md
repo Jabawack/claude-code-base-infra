@@ -8,6 +8,34 @@ Follow these steps in order:
 
 ---
 
+## Step 0: Check Existing Infrastructure
+
+First, check if `.claude/` folder already exists:
+
+```bash
+ls -la .claude/ 2>/dev/null
+```
+
+**If `.claude/` exists, ask user:**
+
+```
+Existing Claude Code infrastructure detected.
+
+Current setup:
+- Skills: [list what's in .claude/skills/]
+- Agents: [count]
+- Commands: [count]
+
+What would you like to do?
+1. Update/merge - Keep unique items, update common ones
+2. Replace - Remove existing and apply fresh
+3. Skip - Keep current setup, exit
+```
+
+**If no `.claude/` exists**, proceed to Step 1.
+
+---
+
 ## Step 1: Analyze Target Repository
 
 First, detect the project's tech stack by checking for these files:
